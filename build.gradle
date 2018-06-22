@@ -23,3 +23,7 @@ dependencies {
     runtimeOnly 'junit:junit:4.11'
     runtimeOnly 'org.mockito:mockito-all:1.10.19'
 }
+
+compileTestJava {
+    enabled false
+}

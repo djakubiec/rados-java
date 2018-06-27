@@ -5,10 +5,8 @@ keyring.*
 target
 *.iml
 .idea
-/.settings/
 /ceph/
 /.classpath
-/.project
 /bin/
 build-indep-stamp
 configure-stamp

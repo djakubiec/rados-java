@@ -1,5 +1,5 @@
 apply plugin: 'java'
-apply plugin: 'maven'
+apply plugin: 'maven-publish'
 
 group = 'com.ceph'
 version = '0.4.0-SNAPSHOT'
@@ -16,7 +16,7 @@ tasks.withType(JavaCompile) {
 
 repositories {
         
-     maven { url "http://repo.maven.apache.org/maven2" }
+     maven { url "https://repo.maven.apache.org/maven2" }
 }
 dependencies {
     implementation 'net.java.dev.jna:jna:4.1.0'

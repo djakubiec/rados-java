@@ -17,3 +17,4 @@ debian/librados-java
 pom.xml.releaseBackup
 release.properties
 build
+/.gradle/

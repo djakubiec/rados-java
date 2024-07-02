@@ -6,8 +6,8 @@ version = '0.4.0-SNAPSHOT'
 
 description = """rados java bindings"""
 
-sourceCompatibility = 1.7
-targetCompatibility = 1.7
+sourceCompatibility = 1.17
+targetCompatibility = 1.17
 tasks.withType(JavaCompile) {
 	options.encoding = 'UTF-8'
 }
